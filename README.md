@@ -1,38 +1,58 @@
-Student internship and job tracking system 
-A web application for managing placement process in universities where companies can post their jobs and internship positions and student can apply for available positions .
+<h1>Student internship and job tracking system </h1>
 
-Features
+<p>A web application for managing placement process in universities where companies can post their jobs and internship positions and student can apply for available positions .
+</p>
 
-Job Browsing: View available jobs and internships
-Student Applications: Apply with ID verification using student id
-Application Tracking: Monitor application status
-Admin Panel: Manage applications and interviews (partial)
+<h2>Features</h2>
+<ul>
+  <li><strong>Job & Internship Listings:</strong> View available opportunities from registered companies</li>
+  <li><strong>Student Applications:</strong> Apply directly using your Student ID </li>
+  <li><strong>Application Tracking:</strong> Keep track of your application status in real-time</li>
+  <li><strong>Admin Panel (Partial):</strong> Placement officers can manage and review applications, and schedule interviews</li>
+</ul>
+<h2>Tech Stack</h2>
 
-Tech Stack
+<ul>
+  <li><strong>Frontend:</strong> HTML5, CSS3</li>
+  <li><strong>Backend:</strong> PHP</li>
+  <li><strong>Database:</strong> MySQL</li>
+  <li><strong>Development Environment:</strong> XAMPP (Apache, MySQL, phpMyAdmin)</li>
+</ul>
+<h2>Database Structure</h2>
+<p>Main Tables:</p>
 
-Frontend: HTML5, CSS3
-Backend: PHP, MySQL
-Environment: XAMPP (Apache, MySQL, phpMyAdmin)
+<ul>
+  <li><strong>Student:</strong> Stores student profiles and academic details</li>
+  <li><strong>Company:</strong> Contains information about registered companies and HR contacts</li>
+  <li><strong>Job_Internship:</strong> Holds all job/internship postings</li>
+  <li><strong>Application:</strong> Tracks applications submitted by students</li>
+  <li><strong>Interview:</strong> Manages interview schedules and updates</li>
+  <li><strong>Placement_Officer:</strong> Admin details</li>
+</ul>
 
-Database Structure
-Main Tables:
+<p><h2>Usage</h2>
+<ul>
+<li>Students: Browse jobs → Enter Student ID → Apply → Track status</li>
+<li>Admins: Manage applications → Schedule interviews</li>
+</ul>
+</p>
+<h2> Screenshots</h2>
+<p><strong>Home Page</strong></p>
+<img src="homepage.png" alt="Home Page" width="600">
 
-Student - Student profiles and academic info
-Company - Company and HR details
-Job_Internship - Job postings
-Application - Student applications
-Interview - Interview scheduling
-Placement_Officer - Admin details
+<p><strong>apply Page</strong></p>
+<img src="apply.png" alt="Job Listings" width="600">
 
-Usage
-Students: Browse jobs → Enter Student ID → Apply → Track status
-Admins: Manage applications → Schedule interviews
+<p><strong>my applications page</strong></p>
+<img src="applications.png" alt="Admin Panel" width="600">
 
-Future Plans
 
-Complete admin panel
-Email notifications
-Document resume uploads page 
+<h2>Future Plans</h2>
+<ul>
+  <li>Complete and secure admin panel</li>
+  <li>Automated email notifications for students</li>
+  <li>Resume and document upload section</li>
+</ul>
 
 Author
 Vansh Chopra (23/CS/528)
